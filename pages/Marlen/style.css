@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    list-style: none;
+}
+.container{
+    width: 1440px;
+}
+.header__top__left{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding-right: 76px;
+}
+.header__top__right{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.header__top{
+    background: rgb(247, 235, 229);
+    display: flex;
+    padding: 0 135px 0 135px;
+    height: 48px;
+    font-size: 13px;
+    font-weight: 400;
+    text-overflow: hidden;
+}
+.location{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.phone{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.cart{
+    display: flex;
+    align-items: center;
+    position: relative;
+    gap: 5px;
+}
+.cart img:nth-child(2){
+    position: absolute;
+    top: 14px;
+    right: 138px;
+}
+.header__nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 160px;
+    width: 100%;
+    background-color: white;
+    gap: 30px;
+    font-size: 13px;
+    font-weight: 400;
+    padding-left: 160px;
+    padding-right: 229px;
+}
+.header__nav ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.header__nav li{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.main__title h5{
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 41px;
+    margin-bottom: 22px;
+}
+.main__title h1{
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 38px;
+}
+.main__title span{
+    color: rgb(78, 157, 211);
+}
+.main__content .container{
+    padding-left: 135px;
+    padding-right: 135px;
+    background: rgb(253, 253, 253);
+}
+.main__title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main__content__nav{
+    gap: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 41px;
+}
+.main__content__nav button{
+    background: rgb(247, 235, 229);
+    border: none;
+    border-radius: 100px;
+    padding: 12px 17px 12px 17px;
+}
+.cards{
+    background: white;
+    width: 370px;
+    height: 473px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    border-radius: 5px;
+    border: none;
+    padding-bottom: 35px;
+}
+.cards h4,h5{
+    padding-left: 21px;
+}
+.cards h4{
+    padding-top: 21px;
+    padding-bottom: 14px;
+}
+.cards h5{
+    padding-bottom: 30px;
+    color: rgb(41, 41, 41);
+    font-size: 14px;
+    font-weight: 400;
+}
+.card__bottom{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgb(237, 237, 240);
+}
+.card__bottom button{
+    background-color: white;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 11px;
+    border-left: 1px solid rgb(237, 237, 240);
+    padding: 0px 25px 0 22px;
+    border-bottom-right-radius: 5px;
+}
+.card__bottom h4{
+    padding: 14px 0px 10px 21px;
+}
+.sets{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.price{
+    color: rgb(231, 66, 106);
+}
+.show__more{
+    width: 293px;
+    height: 50px;
+    font-size: 14px;
+    font-weight: bolder;
+    border: 1px solid rgb(78, 157, 211);
+    border-radius: 3px;
+    background: none;
+    margin-bottom: 80px;
+}
+footer .container{
+    background: rgb(241, 241, 241);
+    display: flex;
+}
+.left__section{
+    margin-right: 41px;
+}
+.left__section__img{
+    display: flex;
+    gap: 40px;
+    padding-top: 58px;
+    padding-left: 135px;
+    font-size: 12px;
+    font-weight: 400;
+}
+.left__section h5{
+    padding-left: 135px;
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(41, 41, 41);
+    padding-bottom: 69px;
+    padding-top: 28px;
+}
+.left__img{
+    text-align: center;
+}
+.left__img img{
+    margin-bottom: 14px;
+}
+.middle__section{
+    display: flex;
+    padding-top: 58px;
+}
+.middle__section ul{
+    padding-top: 18px;
+}
+.middle__section li{
+    padding-bottom: 10px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.middle__section h4{
+    font-size: 16px;
+    font-weight: 800;
+}
+.info{
+    margin-right: 30px;
+}
+.catalogue{
+    margin-right: 26px;
+}
+.number{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    margin-top: 58px;
+    margin-left: 35px;
+}
+.number h4{
+    font-size: 18px;
+    font-weight: 800;
+}
+.number h5{
+    font-size: 14px;
+    font-weight: 400;
+}
+.social__media{
+    margin-left: 66px;
+    margin-top: 70px;
+}
+.social__media img{
+    margin-left: 18px;
+}
