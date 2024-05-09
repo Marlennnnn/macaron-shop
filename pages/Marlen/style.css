@@ -27,7 +27,6 @@
     height: 48px;
     font-size: 13px;
     font-weight: 400;
-    text-overflow: hidden;
 }
 .location{
     display: flex;
