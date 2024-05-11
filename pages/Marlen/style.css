@@ -9,6 +9,12 @@
 .container{
     width: 1440px;
 }
+.media__header{
+    display: none;
+}
+.media__main__title{
+    display: none;
+}
 .header__top__left{
     display: flex;
     align-items: center;
